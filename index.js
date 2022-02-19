@@ -12,7 +12,6 @@ var fs = require('fs'),
 	es = require("event-stream"),
 	os = require('os'),
 	chokidar = require('chokidar');
-require('colors');
 
 var INJECTED_CODE = fs.readFileSync(path.join(__dirname, "injected.html"), "utf8");
 
